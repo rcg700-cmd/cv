@@ -1,0 +1,8 @@
+# Archivos temporales
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+# Galerias de logos (opcional, se pueden incluir)
+# logos.html
+# logos2.html

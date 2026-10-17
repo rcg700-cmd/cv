@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Opciones de logo</title>
+<style>
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:#0b1220;color:#e8ecf4;margin:0;padding:30px}
+  h1{font-size:1.6rem;margin-bottom:6px}
+  .sub{color:#9aa7c2;margin-bottom:28px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+  .opt{background:#16203a;border:1px solid #2a3655;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:12px}
+  .opt h3{font-size:.95rem;color:#66BB6A;margin:0}
+  .preview{background:#111a2e;border:1px solid #2a3655;border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:12px;min-height:52px}
+  .code{font-family:Consolas,monospace;font-size:.78rem;color:#9aa7c2;background:#0b1220;border:1px solid #2a3655;border-radius:8px;padding:10px;white-space:pre-wrap;word-break:break-all}
+  /* logos */
+  .L1{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#2E7D32,#43A047);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:.9rem;letter-spacing:.5px}
+  .L2{display:flex;align-items:center;gap:8px;font-weight:700;font-size:1rem}
+  .L2 .dot{width:10px;height:10px;border-radius:50%;background:#66BB6A}
+  .L3{font-weight:600;font-size:1rem;letter-spacing:.3px}
+  .L3 span{color:#66BB6A}
+  .L4 svg{width:26px;height:26px}
+  .L5{font-weight:800;font-size:1.25rem;letter-spacing:-.5px}
+  .L5 span{color:#66BB6A}
+  .L6{display:flex;align-items:center;gap:8px;font-weight:600;font-size:.95rem}
+  .L6 .mark{font-family:Consolas,monospace;color:#66BB6A;font-weight:700}
+</style>
+</head>
+<body>
+<h1>Opciones de logo para la barra de navegación</h1>
+<p class="sub">Sencillos, minimalistas y no distractores. Elige uno y te lo aplico.</p>
+<div class="grid">
+
+  <div class="opt">
+    <h3>Opción 1 — Monograma en cuadrado</h3>
+    <div class="preview"><div class="L1">RC</div><span style="color:#9aa7c2;font-size:.9rem">Randall Castillo</span></div>
+    <div class="code">&lt;div class="logo"&gt;&lt;div class="L1"&gt;RC&lt;/div&gt;&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 2 — Punto verde + nombre</h3>
+    <div class="preview"><div class="L2"><span class="dot"></span>Randall Castillo</div></div>
+    <div class="code">&lt;div class="logo L2"&gt;&lt;span class="dot"&gt;&lt;/span&gt;Randall Castillo&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 3 — Nombre con acento de color</h3>
+    <div class="preview"><div class="L3">Randall <span>Castillo</span></div></div>
+    <div class="code">&lt;div class="logo L3"&gt;Randall &lt;span&gt;Castillo&lt;/span&gt;&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 4 — Icono de código + nombre</h3>
+    <div class="preview"><div class="L6"><span class="mark">&lt;/&gt;</span> Randall Castillo</div></div>
+    <div class="code">&lt;div class="logo L6"&gt;&lt;span class="mark"&gt;&amp;lt;/&amp;gt;&lt;/span&gt; Randall Castillo&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 5 — Inicial grande</h3>
+    <div class="preview"><div class="L5">R<span>andall Castillo</span></div></div>
+    <div class="code">&lt;div class="logo L5"&gt;R&lt;span&gt;andall Castillo&lt;/span&gt;&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 6 — Solo texto limpio (sin logo)</h3>
+    <div class="preview"><div class="L3" style="color:#e8ecf4">Randall Castillo Guillén</div></div>
+    <div class="code">&lt;div class="logo"&gt;Randall Castillo Guillén&lt;/div&gt;</div>
+  </div>
+
+</div>
+<p style="color:#9aa7c2;margin-top:24px;font-size:.9rem">Dime el número de opción (1–6) que prefieres y la aplico al navbar.</p>
+</body>
+</html>

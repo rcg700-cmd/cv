@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Más opciones de logo</title>
+<style>
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:#0b1220;color:#e8ecf4;margin:0;padding:30px}
+  h1{font-size:1.6rem;margin-bottom:6px}
+  .sub{color:#9aa7c2;margin-bottom:28px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+  .opt{background:#16203a;border:1px solid #2a3655;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:12px}
+  .opt h3{font-size:.95rem;color:#66BB6A;margin:0}
+  .preview{background:#111a2e;border:1px solid #2a3655;border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:12px;min-height:52px}
+  .code{font-family:Consolas,monospace;font-size:.78rem;color:#9aa7c2;background:#0b1220;border:1px solid #2a3655;border-radius:8px;padding:10px;white-space:pre-wrap;word-break:break-all}
+  .A{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem}
+  .A .bar{width:4px;height:22px;background:#66BB6A;border-radius:2px}
+  .B{display:flex;align-items:center;gap:8px;font-weight:700;font-size:1rem;font-family:Consolas,monospace}
+  .B .br{color:#66BB6A}
+  .C{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem}
+  .C .hex{width:30px;height:30px;background:#2E7D32;clip-path:polygon(25% 0%,75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:.8rem}
+  .D{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem}
+  .D .sq{width:10px;height:10px;background:#66BB6A;border-radius:2px}
+  .D span{letter-spacing:2px;text-transform:uppercase;font-size:.8rem;color:#9aa7c2}
+  .E{display:flex;align-items:center;gap:4px;font-weight:800;font-size:1.3rem}
+  .E .r{color:#66BB6A}
+  .E .u{width:28px;height:3px;background:#66BB6A;margin-top:6px;border-radius:2px}
+  .F{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem}
+  .F .dot{width:6px;height:6px;border-radius:50%;background:#66BB6A;box-shadow:0 0 0 3px rgba(102,187,106,.2)}
+  .G{display:flex;align-items:center;gap:8px}
+  .G .ring{width:28px;height:28px;border-radius:50%;border:2px solid #66BB6A;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.85rem;color:#66BB6A}
+  .H{display:flex;align-items:center;gap:6px;font-weight:700;font-size:1rem}
+  .H .slash{color:#66BB6A;font-family:Consolas,monospace}
+</style>
+</head>
+<body>
+<h1>Más opciones de logo</h1>
+<p class="sub">Variantes minimalistas adicionales. Elige el número que prefieras.</p>
+<div class="grid">
+
+  <div class="opt">
+    <h3>Opción 7 — Barra vertical + nombre</h3>
+    <div class="preview"><div class="A"><div class="bar"></div>Randall Castillo</div></div>
+    <div class="code">&lt;div class="logo A"&gt;&lt;div class="bar"&gt;&lt;/div&gt;Randall Castillo&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 8 — Corchetes de código { }</h3>
+    <div class="preview"><div class="B"><span class="br">{</span>Randall Castillo<span class="br">}</span></div></div>
+    <div class="code">&lt;div class="logo B"&gt;&lt;span class="br"&gt;{&lt;/span&gt;Randall Castillo&lt;span class="br"&gt;}&lt;/span&gt;&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 9 — Hexágono con inicial</h3>
+    <div class="preview"><div class="C"><div class="hex">R</div>Randall Castillo</div></div>
+    <div class="code">&lt;div class="logo C"&gt;&lt;div class="hex"&gt;R&lt;/div&gt;Randall Castillo&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 10 — Punto cuadrado + nombre en mayúsculas</h3>
+    <div class="preview"><div class="D"><div class="sq"></div><span>Randall Castillo</span></div></div>
+    <div class="code">&lt;div class="logo D"&gt;&lt;div class="sq"&gt;&lt;/div&gt;&lt;span&gt;Randall Castillo&lt;/span&gt;&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 11 — Inicial con subrayado verde</h3>
+    <div class="preview"><div class="E"><span class="r">R</span><div style="display:flex;flex-direction:column;align-items:flex-start"><span style="font-size:.95rem">andall Castillo</span><div class="u"></div></div></div></div>
+    <div class="code">&lt;div class="logo E"&gt;&lt;span class="r"&gt;R&lt;/span&gt;andall Castillo&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 12 — Anillo con inicial</h3>
+    <div class="preview"><div class="G"><div class="ring">R</div>Randall Castillo</div></div>
+    <div class="code">&lt;div class="logo G"&gt;&lt;div class="ring"&gt;R&lt;/div&gt;Randall Castillo&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 13 — Barra diagonal /</h3>
+    <div class="preview"><div class="H"><span class="slash">/</span>Randall Castillo</div></div>
+    <div class="code">&lt;div class="logo H"&gt;&lt;span class="slash"&gt;/&lt;/span&gt;Randall Castillo&lt;/div&gt;</div>
+  </div>
+
+  <div class="opt">
+    <h3>Opción 14 — Punto simple + nombre</h3>
+    <div class="preview"><div class="F"><div class="dot"></div>Randall Castillo</div></div>
+    <div class="code">&lt;div class="logo F"&gt;&lt;div class="dot"&gt;&lt;/div&gt;Randall Castillo&lt;/div&gt;</div>
+  </div>
+
+</div>
+<p style="color:#9aa7c2;margin-top:24px;font-size:.9rem">Dime el número de opción (7–14) que prefieres y la aplico al navbar.</p>
+</body>
+</html>
