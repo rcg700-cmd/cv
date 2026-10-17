@@ -1,4 +1,4 @@
-// Menú móvil y descarga de CV (impresión → PDF)
+// Menú móvil
 (function () {
   var menuBtn = document.getElementById('menuBtn');
   var navlinks = document.querySelector('.navlinks');
@@ -23,10 +23,4 @@
     });
   }
 
-  // Botón "Descargar CV (PDF)": abre el diálogo de impresión
-  document.querySelectorAll('.js-print').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      window.print();
-    });
-  });
 })();
