@@ -6,30 +6,69 @@
 <title>Randall Castillo Guillén — Analista de Datos & Desarrollador de Software</title>
 <meta name="description" content="Portafolio profesional de Randall Castillo Guillén: Analista de Datos, Desarrollo de Software, Power BI y Gestión de Sistemas. Alajuela, Costa Rica.">
 <meta name="author" content="Randall Castillo Guillén">
+<meta name="theme-color" content="#0b1220">
 <link rel="canonical" href="https://lab-linux.tailf228f3.ts.net:8443/cv/">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://lab-linux.tailf228f3.ts.net">
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Randall Castillo Guillén — Analista de Datos & Desarrollador de Software">
 <meta property="og:description" content="Portafolio profesional: Análisis de Datos, Desarrollo de Software, Power BI y Gestión de Sistemas. Alajuela, Costa Rica.">
 <meta property="og:url" content="https://lab-linux.tailf228f3.ts.net:8443/cv/">
-<meta property="og:image" content="https://lab-linux.tailf228f3.ts.net:8443/cv/profile.jpg">
+<meta property="og:image" content="https://lab-linux.tailf228f3.ts.net:8443/cv/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="es_CR">
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Randall Castillo Guillén — Analista de Datos & Desarrollador de Software">
 <meta name="twitter:description" content="Portafolio profesional: Análisis de Datos, Desarrollo de Software, Power BI y Gestión de Sistemas.">
-<meta name="twitter:image" content="https://lab-linux.tailf228f3.ts.net:8443/cv/profile.jpg">
+<meta name="twitter:image" content="https://lab-linux.tailf228f3.ts.net:8443/cv/og-image.png">
 <link rel="stylesheet" href="styles.css">
+<!-- Datos estructurados (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Randall Castillo Guillén",
+  "jobTitle": "Analista de Datos y Desarrollador de Software",
+  "email": "mailto:rcg700@gmail.com",
+  "url": "https://lab-linux.tailf228f3.ts.net:8443/cv/",
+  "image": "https://lab-linux.tailf228f3.ts.net:8443/cv/profile.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Alajuela",
+    "addressCountry": "CR"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/randall-castillol-5161174b/",
+    "https://github.com/rcg700-cmd"
+  ],
+  "knowsAbout": [
+    "Análisis de datos",
+    "Power BI",
+    "Desarrollo de software",
+    "Bases de datos Oracle",
+    "Sybase",
+    "SQL Server",
+    "ASP.NET",
+    "PHP",
+    "Gestión de sistemas"
+  ],
+  "knowsLanguage": ["es"]
+}
+</script>
 </head>
 <body>
+
+<a class="skip-link" href="#main">Saltar al contenido principal</a>
 
 <nav>
   <div class="container">
     <div class="logo logo7"><div class="bar"></div>Randall Castillo</div>
-    <button class="menu-btn" id="menuBtn" aria-label="Menú" type="button">☰</button>
-    <ul class="navlinks">
+    <button class="menu-btn" id="menuBtn" aria-label="Menú" aria-expanded="false" aria-controls="navlinks" type="button"><span aria-hidden="true">☰</span></button>
+    <ul class="navlinks" id="navlinks">
       <li><a href="#resumen">Resumen</a></li>
       <li><a href="#experiencia">Experiencia</a></li>
       <li><a href="#logros">Logros</a></li>
@@ -40,6 +79,8 @@
   </div>
 </nav>
 
+<main id="main" tabindex="-1">
+
 <header class="hero">
   <div class="container">
     <div class="hero-grid">
@@ -48,17 +89,18 @@
         <div class="role">Analista de Datos | Desarrollo de Software | Power BI | Gestión de Sistemas</div>
         <p>Especialista con 14 años de trayectoria en desarrollo de software, análisis de datos y gestión de sistemas dentro del sector educativo. Creo aplicaciones web, optimizo bases de datos y genero reportes estratégicos que facilitan la toma de decisiones clave.</p>
         <div class="meta">
-          <span>📍 Alajuela, Costa Rica</span>
-          <span>✉️ rcg700@gmail.com</span>
-          <span>✉️ randallcastilloguillen@gmail.com</span>
+          <span><span aria-hidden="true">📍</span> Alajuela, Costa Rica</span>
+          <span><span aria-hidden="true">✉️</span> rcg700@gmail.com</span>
+          <span><span aria-hidden="true">✉️</span> randallcastilloguillen@gmail.com</span>
         </div>
         <div class="cta">
           <a class="btn btn-primary" href="#contacto">Contáctame</a>
           <a class="btn btn-ghost" href="#experiencia">Ver experiencia</a>
+          <button class="btn btn-ghost js-print" type="button"><span aria-hidden="true">⬇️</span> Descargar CV (PDF)</button>
         </div>
       </div>
       <div class="avatar" aria-label="Foto de Randall Castillo Guillén">
-        <img src="profile.jpg?v=2" alt="Foto de Randall Castillo Guillén" width="260" height="260" loading="lazy" decoding="async">
+        <img src="profile.jpg?v=2" alt="Foto de Randall Castillo Guillén" width="260" height="260" fetchpriority="high" decoding="async">
         <small>14 años de experiencia</small>
       </div>
     </div>
@@ -70,7 +112,7 @@
     <h2 class="section-title">Resumen Profesional</h2>
     <p class="section-sub">Trayectoria y enfoque</p>
     <div class="summary">
-      <p>Especialista con 14 años de trayectoria en desarrollo de software, análisis de datos y gestión de sistemas dentro del sector educativo. Experto en la creación de aplicaciones web, mejora del rendimiento de bases de datos y generación de reportes estratégicos que facilitan la toma de decisiones clave. Comprometido con el desarrollo de soluciones tecnológicas innovadoras que optimicen procesos y potencien el crecimiento institucional.</p>
+      <p>Mi trabajo combina desarrollo de software y análisis de datos para transformar procesos manuales en sistemas ágiles y confiables. A lo largo de mi carrera he creado aplicaciones web, migrado y optimizado bases de datos en entornos Oracle y Sybase, y construido dashboards en Power BI que convierten datos complejos en decisiones claras para directivos y equipos académicos. Busco seguir aportando valor institucional mediante soluciones tecnológicas medibles y sostenibles.</p>
     </div>
   </div>
 </section>
@@ -126,22 +168,22 @@
     <div class="grid grid-2">
       <div class="card ach">
         <div class="metric">5 h → 10 min</div>
-        <h4>Reducción Tiempo de Ejecución</h4>
+        <h3>Reducción Tiempo de Ejecución</h3>
         <p>Implementación del sistema de notas académicas redujo el tiempo de ejecución de 5 horas a 10 minutos.</p>
       </div>
       <div class="card ach">
         <div class="metric">+40%</div>
-        <h4>Aumento de Eficiencia Documental</h4>
+        <h3>Aumento de Eficiencia Documental</h3>
         <p>Automatización de procesos administrativos aumentó la eficiencia documental un 40% en registro académico.</p>
       </div>
       <div class="card ach">
         <div class="metric">+25%</div>
-        <h4>Incremento de Ventas ERP</h4>
+        <h3>Incremento de Ventas ERP</h3>
         <p>Desarrollo de ERP optimizó la gestión de inventario, incrementando ventas en un 25% en el primer año.</p>
       </div>
       <div class="card ach">
         <div class="metric">+30%</div>
-        <h4>Mejora en Decisiones Directivas</h4>
+        <h3>Mejora en Decisiones Directivas</h3>
         <p>Implementación de dashboards en Power BI mejoró las decisiones directivas en un 30% en el último trimestre.</p>
       </div>
     </div>
@@ -154,7 +196,7 @@
     <p class="section-sub">Formación académica</p>
     <div class="grid grid-2">
       <div class="card edu-item">
-        <div class="edu-icon">🎓</div>
+        <div class="edu-icon" aria-hidden="true">🎓</div>
         <div>
           <h3>Bachillerato en Ingeniería Informática</h3>
           <div class="inst">Universidad Central</div>
@@ -162,7 +204,7 @@
         </div>
       </div>
       <div class="card edu-item">
-        <div class="edu-icon">💻</div>
+        <div class="edu-icon" aria-hidden="true">💻</div>
         <div>
           <h3>Técnico en Desarrollo de Aplicaciones de Escritorio y Web</h3>
           <div class="inst">CENFOTEC</div>
@@ -178,7 +220,7 @@
     <h2 class="section-title">Habilidades</h2>
     <p class="section-sub">Competencias técnicas</p>
     <div class="skill-group">
-      <h4>Área de Especialización</h4>
+      <h3>Área de Especialización</h3>
       <div class="chips">
         <span class="chip">Análisis de datos y Power BI</span>
         <span class="chip">Desarrollo web y gestión de sitios</span>
@@ -189,7 +231,7 @@
       </div>
     </div>
     <div class="skill-group">
-      <h4>Herramientas de Inteligencia Artificial</h4>
+      <h3>Herramientas de Inteligencia Artificial</h3>
       <div class="chips">
         <span class="chip">Claude (Anthropic)</span>
         <span class="chip">Optimización y refactorización de código (SQL, PHP, .NET)</span>
@@ -200,7 +242,7 @@
       </div>
     </div>
     <div class="skill-group">
-      <h4>Tecnologías</h4>
+      <h3>Tecnologías</h3>
       <div class="chips">
         <span class="chip">Visual Studio</span>
         <span class="chip">Oracle / Oracle Forms</span>
@@ -220,21 +262,24 @@
 <section id="contacto">
   <div class="container">
     <div class="contact">
-      <h3>¿Hablamos?</h3>
+      <h2>¿Hablamos?</h2>
       <p>Estoy disponible para nuevos proyectos, consultoría y oportunidades laborales.</p>
       <div class="contact-links">
-        <a href="mailto:rcg700@gmail.com">✉️ rcg700@gmail.com</a>
-        <a href="mailto:randallcastilloguillen@gmail.com">✉️ randallcastilloguillen@gmail.com</a>
-        <a href="https://www.linkedin.com/in/randall-castillol-5161174b/" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
-        <a href="https://github.com/rcg700-cmd" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
+        <a href="mailto:rcg700@gmail.com"><span aria-hidden="true">✉️</span> rcg700@gmail.com</a>
+        <a href="mailto:randallcastilloguillen@gmail.com"><span aria-hidden="true">✉️</span> randallcastilloguillen@gmail.com</a>
+        <a href="https://www.linkedin.com/in/randall-castillol-5161174b/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">🔗</span> LinkedIn</a>
+        <a href="https://github.com/rcg700-cmd" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">🐙</span> GitHub</a>
       </div>
+      <button class="btn btn-primary js-print" type="button"><span aria-hidden="true">⬇️</span> Descargar CV (PDF)</button>
     </div>
   </div>
 </section>
 
+</main>
+
 <footer>
   <div class="container">
-    © 2026 Randall Castillo Guillén · Alajuela, Costa Rica · Hecho con ❤️
+    © 2026 Randall Castillo Guillén · Alajuela, Costa Rica · Hecho con <span aria-hidden="true">❤️</span>
   </div>
 </footer>
 

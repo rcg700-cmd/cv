@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lab-linux.tailf228f3.ts.net:8443/cv/sitemap.xml

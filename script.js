@@ -1,18 +1,32 @@
-// Toggle del menú móvil
+// Menú móvil y descarga de CV (impresión → PDF)
 (function () {
   var menuBtn = document.getElementById('menuBtn');
   var navlinks = document.querySelector('.navlinks');
+
+  function closeMenu() {
+    if (!navlinks) return;
+    navlinks.classList.remove('open');
+    if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
+  }
+
   if (menuBtn && navlinks) {
     menuBtn.addEventListener('click', function () {
-      navlinks.classList.toggle('open');
+      var open = navlinks.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   }
+
   // Cierra el menú móvil al hacer clic en un enlace
   if (navlinks) {
     navlinks.querySelectorAll('a').forEach(function (a) {
-      a.addEventListener('click', function () {
-        navlinks.classList.remove('open');
-      });
+      a.addEventListener('click', closeMenu);
     });
   }
+
+  // Botón "Descargar CV (PDF)": abre el diálogo de impresión
+  document.querySelectorAll('.js-print').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      window.print();
+    });
+  });
 })();
