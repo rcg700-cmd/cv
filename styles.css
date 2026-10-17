@@ -109,7 +109,7 @@ section{padding:70px 0;scroll-margin-top:80px}
 .contact-links{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
 .contact-links a{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:10px;background:var(--bg2);border:1px solid var(--line);color:var(--text);font-size:.9rem}
 .contact-links a:hover{border-color:var(--accent3);text-decoration:none}
-.contact .js-print{margin-top:20px}
+.contact .btn{margin-top:25px}
 
 footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
 
