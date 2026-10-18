@@ -49,3 +49,8 @@ Usar mensajes de commit claros en español, por ejemplo: `feat: agrega sección 
 **Regla de despliegue:**
 - NO subir a `production` ni a línea sin autorización explícita del usuario.
 - Para subir a producción: merge de `developer` → `production`, luego sincronizar archivos a `/home/randall/cv-web/` en `lab-linux` (contenedor `cv-web` monta esa carpeta en modo lectura).
+
+## Diseño UI
+
+- **Skill activa:** `minimalist-ui` (editorial, monocromo cálido, tipografías Newsreader/Switzer, bordes finos `#EAEAEA`, espaciados generosos, bento sutil, `reveal` con `IntersectionObserver`, `.bg-ambient`, `prefers-reduced-motion`).
+- Al aplicar cambios visuales, seguir las pautas de `.agents/skills/minimalist-ui/SKILL.md`.
